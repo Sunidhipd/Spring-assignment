@@ -7,7 +7,7 @@ public class Movie {
 
     }
 
-    Movie(Movie movie){this.actor=actor;}
+    Movie(Actor actor){this.actor=actor;}
 
 
     public Actor getActor() {
