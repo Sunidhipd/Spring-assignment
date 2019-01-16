@@ -16,7 +16,12 @@
         <property name="gender" value="Female"></property>
         <property name="age" value="23"></property>
     </bean>
-    <!--<bean id="movie" class="com.stackroute.domain.Movie" autowire="byName">-->
+
+
+    <bean id="lifeCycleDemoBean" class="com.stackroute.domain.BeanLifecycleDemoBean" init-method="customInit" destroy-method="customDestroy">
+    </bean>
+
+        <!--<bean id="movie" class="com.stackroute.domain.Movie" autowire="byName">-->
     <!--</bean>-->
 
     <!--<bean id="actor2" class="com.stackroute.domain.Actor">-->
